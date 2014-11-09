@@ -1,0 +1,12 @@
+The project is actually a website for searching details about topics,
+
+1. The topics are divided among categories, addition of new topics and categories are allowed.
+2.  The search results are available to users whether logged in or not, but to add explanations to topics, or like the explanation, the user must be logged in.
+3. The format of explanations are any sort of text  format.
+4. The explanations for each topic are sorted according to the number of likes they received.
+5. Every logged in user is free to view all topics, add explanations to them or add them to her/his stalker listing.
+6. Users can create groups, or join other groups, the decision of adding them to the group rests with the user who originally created the group.
+7. Any update made to any given topic a user is stalking or group to which the user belongs are corresponded to the user on her/his user-homepage.
+8. New discussions can be added to the groups and replies can be made by any user who belongs to the group.
+9. Any user can see names of all topics, categories and groups, but a user not belonging to a respective group can’t visit the group’s homepage, only see the group’s about us page and apply to join. 
+10. In the topic and group listing stating all topics/groups, the topics user is already stalking or groups she/he is already part of, are ticked and others aren’t.
