@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Madrone Leaves</title>
+<<link rel="stylesheet" type="text/css" href="hit_1.css" /></style>>
+
+<style type="text/css">
+html, body { height: 100%; margin: 0; padding: 0; color: #fff;}
+a { color: #fff; }
+#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
+#content {position:relative; z-index:1;}
+</style>
+
+<style type="text/css">
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+#bg {position:absolute; z-index:-1;}
+#content {position:static;}
+
+</style>
+<style type="text/css">
+
+#navlist{position:relative;}
+#navlist li{margin:0;padding:0;list-style:none;position:relative;top:0%;}
+#navlist li, #navlist a{height:50px;display:block;}
+
+#home{left:2%; width:50px}
+#home{background:url('home.png') 0 0;}
+#home a:hover{background: url('home_hover.png') 0 0;}
+	
+
+.inputbox1{
+width: 22%;
+height: 7%;
+margin: 0 0 1em 0;
+text-indent:0%;
+text-align:center;
+text-transform:uppercase;
+color: #996600;
+font-size:20;
+font-style:normal;
+font-weight: bold;
+font-family:"Courier New";
+border: 0;
+background: url('text_bar.png') no-repeat right top;
+}
+</style>
+</head>
+<body>
+
+<img src="background.jpg" alt="crayons" id="bg" />
+
+<ul id="navlist">
+<li id="home"><a href="main_2.html"></a></li>
+</ul>
+
+<form action="search.php" method="get">
+<center>
+<img src="cray_wanna2.png" alt="Head Search logo"></br>
+<input class="inputbox1" type="text" text-align="center" size="50" name="search_it"/>
+<input type="image" src="search_button.png" alt="Submit" width="4%" height="7%" align="top" /></center>
+</form>
+
+
+
+<form action="catlist.php" method="post">
+<center>
+<img src="in_or.png" alt="OR logo"></br>
+<input type="image" src="see_all.png" alt="Submit" width="250" height="30" align="top" /></center></br></br></br></br>
+</form>
+
+
+<form action="login.php" method="post">
+<center>
+<input class="inputbox1" type="text" text-align="center" size="50" name="username" value="Username"/>
+<input class="inputbox1" type="password" text-align="center" size="50" name="password"/>
+<input type="image" src="enter_logo.png" alt="Submit" width="50" height="50" align="top" /></center>
+</form>
+
+
+<form action="register.html" method="post">
+<center>
+<input type="image" src="sign_up_logo.png" alt="Submit" width="150" height="70" align="top" /></center>
+</form>
+
+
+</body>
+</html>
